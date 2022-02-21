@@ -13,7 +13,7 @@ import json
 import requests
 from flask import Flask, render_template, request, make_response, send_from_directory
 
-option_a = os.getenv('OPTION_A', "Dog 🐺")
+option_a = os.getenv('OPTION_A', "DDDDog 🐺")
 option_b = os.getenv('OPTION_B', "Cccccaatt 🐶")
 hostname = socket.gethostname()
 
